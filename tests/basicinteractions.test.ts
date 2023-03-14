@@ -36,12 +36,6 @@ test("Sum",async({page})=>{
     const finalRes = page.locator("#addmessage");
     console.log(await finalRes.textContent())
     expect (finalRes).toHaveText(""+expval);
-
-   
-
-
-
-
 })
 
 
