@@ -1,0 +1,106 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/lakshmi.killamsetty/Desktop/PlayWright_Demo_Project/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "",
+        "testDir": "C:/Users/lakshmi.killamsetty/Desktop/PlayWright_Demo_Project",
+        "testIgnore": [],
+        "testMatch": [
+          "tests/day1/dropdown.test.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/jsonReport.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "configFile": "C:\\Users\\lakshmi.killamsetty\\Desktop\\PlayWright_Demo_Project\\playwright.config.ts",
+    "rootDir": "C:/Users/lakshmi.killamsetty/Desktop/PlayWright_Demo_Project",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.31.2",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\day1\\dropdown.test.ts",
+      "file": "tests/day1/dropdown.test.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "jquery dropdown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 20724,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2023-03-14T12:39:23.915Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\lakshmi.killamsetty\\Desktop\\PlayWright_Demo_Project\\test-results\\tests-day1-dropdown-jquery-dropdown\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "d38bc58c46db652a9d53-308ef25c50ccf53ef072",
+          "file": "tests/day1/dropdown.test.ts",
+          "line": 29,
+          "column": 6
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
